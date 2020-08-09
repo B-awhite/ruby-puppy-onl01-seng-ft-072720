@@ -15,7 +15,7 @@ class Dog
   
   def self.print_all 
     @@all.map do |name|
-      name
+      puts name
   end 
   
   def save
