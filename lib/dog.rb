@@ -14,8 +14,8 @@ class Dog
   end 
   
   def self.print_all 
-    @@all.map do |dog|
-      "dog"
+    @@all.map do |name|
+      name
   end 
   
   def save
